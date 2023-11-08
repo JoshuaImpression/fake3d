@@ -36,6 +36,7 @@ export default class Sketch {
     this.addTexture();
     this.mouseMove();
     this.gyro();
+    
   }
 
   addShader( source, type ) {
@@ -79,7 +80,6 @@ export default class Sketch {
   }
 
   createScene() {
-
     this.program = this.gl.createProgram();
 
     this.addShader( vertex, this.gl.VERTEX_SHADER );
