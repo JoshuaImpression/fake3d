@@ -223,6 +223,19 @@ a:focus {
 	text-align: center;
 }
 
+.frameTitle h2 {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-weight: 400;
+	line-height: 1em;
+}
+
+.frameValues {
+	color: #000;
+	font-family: suisseInt, sans-serif;
+	font-size: clamp(32px, 5vw, 39px);
+}
+
 .demo-3 .frame__content {
 	color: #24211d;
 }
@@ -291,4 +304,21 @@ a:focus {
 	.frame a {
 		pointer-events: auto;
 	}
+}
+
+.swiper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
